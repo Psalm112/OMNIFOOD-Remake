@@ -112,6 +112,7 @@ header{
 }
 /*styles for the sticky section*/
 .section-a {
+    z-index: 1;
     text-align: left;
     position: -webkit-sticky;
     position: sticky;
@@ -150,7 +151,7 @@ header{
     left: 6%;
     transition: transform 200ms ease-in 50ms;
 	transform: scale(1,0);
-	transform-origin: top center;
+    transform-origin: top center;
 }
 .drpdwn ul div {
     background-color: rgb(49, 79, 4);
